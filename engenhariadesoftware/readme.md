@@ -19,3 +19,22 @@ Comentar com suas palavras o segundo trecho do livro Software Engineering at Goo
 
 ### **_COMENTÁRIO_** 🌨️
 Neste momento abrange-se o que é a engenharia de software, que pode ser vista como "programação integrada ao longo do tempo" e que de acordo com o trecho não é apenas a construção inicial do código mas sim os processos que uma organização utiliza para progredir e manter esse código ao longo do tempo, construindo uma base de código com disciplina de software rigorosa e sustentável (que seria ser capaz de reagir às mudanças necessárias). Para que isto seja feito o livro se baseia em três pilares essenciais que deva se pensar para projetar e arquitetar seu código, sendo eles: **tempo e mudança**, como o código precisará se adaptar ao longo de seu ciclo de vida, **escala e crescimento**, como uma organização precisará se adaptar à medida que evolui, e por último **trocas e custos**, como uma organização toma decisões, com base nas lições dos tópicos anteriores de Tempo e Mudança e Escala e Crescimento.
+
+## 🚩ATIVIDADE 3
+Listar 5 requisitos não funcionais e descrevê-los com suas palavras (ver slides 8, 9 e 10)
+
+#### 1. **ESCALABILIDADE** 
+   O quão bem o sistema opera e perfoma em momentos de um alta demanda de úsuarios e solicitações simultaneamente.
+
+#### 2. **IMPLANTABILIDADE** 
+   O quão fácil e eficiente é implantar o software do sistema.
+
+#### 3. **EXTENSIBILIDADE**
+   O quão fácil é para os desenvolvedores extender o sistema. Isso pode abranger a estrtura arquitetônica, as práticas de engenharia o design interno e a governança.
+
+#### 4. **TESTABILIDADE**
+   O quão completo o teste do sistema é e o quão fácil estes testes são de executar, incluindo unidade, funcionalidade, aceitação do usuário, e testes exploratórios.
+   Este refere-se aos testes durante o desenvolvimento (tal teste de unidade), em vez de garantia de qualidade formal.
+   
+#### 5. **RECUPERABILIDADE**
+   O quão rápido o sistema pode ficar online novamente e mantém o negócio em continuidade no caso de um desastre. Isso pode afetar a estratégia de backup e requisitos para um      hardware duplicado.
