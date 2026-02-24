@@ -38,3 +38,18 @@ Listar 5 requisitos não funcionais e descrevê-los com suas palavras (ver slide
    
 #### 5. **RECUPERABILIDADE**
    O quão rápido o sistema pode ficar online novamente e mantém o negócio em continuidade no caso de um desastre. Isso pode afetar a estratégia de backup e requisitos para um      hardware duplicado.
+
+## 🚩ATIVIDADE 4
+Citar e descrever 3 cenários de trade-offs
+
+#### **DESEMPENHO 🆚 CUSTO** 💸
+Infra robusta (SSD, cloud premium, alta disponibilidade) aumenta performace e SLA, mas eleva OPEX.
+Infra básica reduz custo, mas impacta latência e escalabilidade.
+
+#### **SEGURANÇA 🆚 USABILIDADE** 🔐
+MFA, criptografia forte e políticas rígidas reduzem riscos, mas complicam UX e produtividade.
+Acesso simplificado melhora fluxo do usuário, mas aumenta superfície de ataque.
+
+#### **TIME-TO-MARKET 🆚 QUALIDADE TÉCNICA** 📑
+Entregar rápido acelera valor de negócio, mas gera dívida técnica.
+Refatorar, testar e documentar melhora sustentabilidade, mas atrasa release.
